@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="USERS" directorySegmentName="seg_0" id="589E1E58-FE3B-BDE6-BFC8-F236B9FAD8BE">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>D7FD12C9-4802-E116-E765-11AA301BC979</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>27CC8446-8223-931D-7048-E74BB9966D96</segment>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UPDATEDAT" id="24AB1DFE-847F-5370-97B7-521C6776AB20">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FBURL" id="66DD3D79-F60D-6AE2-3A1F-324814371815">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD" id="9942C10F-EC7D-FFE6-93E5-B26BD48B1EA5">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZALO" id="9A739802-6106-B864-76C9-3DFD4D7DD938">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="A532A350-A539-3411-4CCA-9AC2550095F4">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AVATAR" id="A93C8B60-AFDD-C929-16B5-28CE82593526">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="B58E68DC-5B31-4247-8739-919CD793A3AB">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="FB47C1E2-4E6E-A653-ED78-B0CA2947A170">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONEY" id="FDB0025E-5E41-194A-6038-119916B4BE78">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID" id="FE021DF5-3567-42B1-4D4E-FBB7FB8427F6">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000073134C00009$$" id="FC0BCCF1-F17E-AD84-1D6D-CAD06784E89D">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>AVATAR</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USERS_PK" id="F11B045E-B4B8-04B5-FD01-0F82FCD52F6E">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>D7FD12C9-4802-E116-E765-11AA301BC979</schemaObject>
+<segment>15AB028D-8ADC-8B30-3F1A-38384697FDFC</segment>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<indexSegment>15AB028D-8ADC-8B30-3F1A-38384697FDFC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

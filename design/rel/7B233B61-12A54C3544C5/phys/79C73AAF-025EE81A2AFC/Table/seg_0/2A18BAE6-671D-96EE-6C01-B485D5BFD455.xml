@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CATEGORIES" directorySegmentName="seg_0" id="2A18BAE6-671D-96EE-6C01-B485D5BFD455">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>D7FD12C9-4802-E116-E765-11AA301BC979</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>27CC8446-8223-931D-7048-E74BB9966D96</segment>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HEADER" id="064A797B-C79D-2713-1ED8-179545646254">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="08B7BA54-1D3B-E0E1-1770-E16A4D78FB49">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="18072696-D891-901B-2301-2AC3DAA95EDF">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="217808F5-19C3-2748-4B67-5AB04CCF3986">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBTITLE" id="333EBE86-55BF-4EA1-A0DF-BBE572B80E9E">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALUE" id="72D2F351-10F4-C98E-EFA6-F9876D2B177B">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDAT" id="FAF8A894-D001-356D-1B10-94B978BF521D">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CATEGORIES_PK" id="BD8ED917-2D85-CEBB-ABC3-C92CD64B05EC">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>D7FD12C9-4802-E116-E765-11AA301BC979</schemaObject>
+<segment>15AB028D-8ADC-8B30-3F1A-38384697FDFC</segment>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<indexSegment>15AB028D-8ADC-8B30-3F1A-38384697FDFC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

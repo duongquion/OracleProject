@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D7D5FE-ED9C-2188-9E35-9BDB70851D44" schemaObject="67BB65F6-D224-8BE4-E9A6-59523680AE25" name="OVERVIEWS">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>OVERVIEWS</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="AC2508AC-DDE5-0302-2B0C-8AAAF5508186">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="771E1AF3-8E52-C3EE-5033-7DDE809853C0">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREA" id="A3D5CAD2-5BFD-2A62-26AA-DB189F3099BF">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>AREA</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE" id="13783E6B-F590-7E52-CEE7-C4D9FE83C08E">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>TYPE</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARGET" id="EB333620-6419-FDE3-5A88-828D78186F4F">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>TARGET</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BONUS" id="982BA740-70EB-6D2B-957C-E0EB9E483DF8">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>BONUS</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED" id="21A2217E-E02C-41C0-386F-F462A2B2B8AD">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>CREATED</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRED" id="39FC8191-B6FE-0FA9-5499-C7DAE5F046AD">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>EXPIRED</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDAT" id="0DF2EE19-B52A-D87B-A885-5497A0BB6D5D">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>CREATEDAT</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDAT" id="7945E59C-7AC6-F39C-C0FB-2D2A5DF71B84">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>OVERVIEWS</sourceObjSchema>
+<sourceObjName>UPDATEDAT</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D99E713-921E-15E0-7BB2-9EBED56F7BF1" schemaObject="67BB65F6-D224-8BE4-E9A6-59523680AE25" name="OVERVIEWS_PK">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>SYS_C007479</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC2508AC-DDE5-0302-2B0C-8AAAF5508186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

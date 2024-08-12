@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5A96522-1679-5DE9-1810-0DE652915C84" schemaObject="67BB65F6-D224-8BE4-E9A6-59523680AE25" name="USERS">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B7A602D6-9080-EA77-E6F1-A8973E3974F8">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="DD1059A7-132D-C88A-6C00-719E99DEC7AC">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="CDDB4D5B-9160-2A0C-A9A7-0DD3E277A369">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="77D3B048-C285-FDC1-39D7-90303FA83166">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZALO" id="9973BF25-05D4-1F0E-99A9-1036FB8450DA">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>ZALO</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDAT" id="867BE037-97DF-6DCB-8388-C0CF11646D86">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>CREATEDAT</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDAT" id="40A268FD-602A-A6A8-A985-2908C0912D39">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>UPDATEDAT</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FBURL" id="C31894F9-B223-049D-4AB2-6B9E0A19D725">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>FBURL</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVATAR" id="26A27CDF-8818-F8D3-FB8E-8BD83C55C86B">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>AVATAR</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONEY" id="66DC35DE-1079-37E5-ADA7-0F16A75DE36A">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>MONEY</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,11,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F810D107-66F6-3042-0541-C8D97D5E3C9A" schemaObject="67BB65F6-D224-8BE4-E9A6-59523680AE25" name="USERS_PK">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>SYS_C007494</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7A602D6-9080-EA77-E6F1-A8973E3974F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="STD" directorySegmentName="seg_0" id="24995622-D35F-1DAA-36D0-4F19E91F036B">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjName>STD</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:57 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+</UserOraclev10g>

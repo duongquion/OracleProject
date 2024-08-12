@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="IMAGES" directorySegmentName="seg_0" id="F572B045-BA7A-AAE4-8EB2-3573917C2731">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>8406AE37-98B7-2E42-DFB8-1D554E4273EA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C75E15B7-09E5-6BD4-95FB-6B25979DA544</segment>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="317F2736-9C57-F54E-8D4C-F84C72DF8FC9">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDAT" id="604E0A26-9D1C-9204-749C-3A4C80307692">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMAGE" id="BBD2B992-0DA7-AB4E-296F-5913CAEAAB3A">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="CF0AF815-C421-255F-8644-874D87A9B1A1">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000073116C00002$$" id="C61DF30A-4086-1DF5-730C-5482A2521885">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>IMAGE</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IMAGES_PK" id="CEFC3EF0-97B1-DDEF-EDAA-E202D1180C30">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>8406AE37-98B7-2E42-DFB8-1D554E4273EA</schemaObject>
+<segment>C851FE71-A2DC-2FBE-1FC7-C34B864EFA9B</segment>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<indexSegment>C851FE71-A2DC-2FBE-1FC7-C34B864EFA9B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

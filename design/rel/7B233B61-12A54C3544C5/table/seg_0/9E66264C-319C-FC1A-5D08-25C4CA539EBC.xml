@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E66264C-319C-FC1A-5D08-25C4CA539EBC" schemaObject="D7FD12C9-4802-E116-E765-11AA301BC979" name="ATTRIBUTES">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>ATTRIBUTES</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9696AB27-2A5D-87F1-5F7E-E6CB9D6D9464">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="9762D1F2-7E6C-6F8D-CCBB-FBAEACEAC59A">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACREAGE" id="A42D2306-B9E1-F709-2F10-E3D9D5D52044">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>ACREAGE</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISHED" id="8FC40B52-A388-0004-8157-BC2E80AE9FA1">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>PUBLISHED</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HASHTAG" id="40454CD7-6B1B-A40F-7B7B-040B9E1931F5">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>HASHTAG</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATEDAT" id="06458C30-A371-1BBE-E943-F08C9EADFBCF">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>CREATEDAT</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATEDAT" id="77A56591-3672-7ABF-7A70-72866A32075F">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>ATTRIBUTES</sourceObjSchema>
+<sourceObjName>UPDATEDAT</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="327D35EE-EEB1-A38C-5194-559DA9C7DE0A" schemaObject="D7FD12C9-4802-E116-E765-11AA301BC979" name="ATTRIBUTES_PK">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>SYS_C007461</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9696AB27-2A5D-87F1-5F7E-E6CB9D6D9464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AREAS" directorySegmentName="seg_0" id="AA8E0F9B-5D3D-3181-65A2-72EDF05BBE23">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>8406AE37-98B7-2E42-DFB8-1D554E4273EA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C75E15B7-09E5-6BD4-95FB-6B25979DA544</segment>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UPDATEDAT" id="07CEB7B2-A1E1-2068-426C-220282CEF20B">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="13D8E808-82B6-A1E3-B9A2-8C31350914AD">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1C24AF93-56F5-F5B1-1F90-C9030DD5B11F">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="7FE2FB01-18D9-D7EC-EFA0-DD2C661B5954">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="order" id="807644AE-F419-D0C3-337C-3FE6797D4BEB">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="VALUE" id="B2CD4B4D-CF51-B52F-AFC9-9C1CE6267878">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AREAS_PK" id="2CD2C955-3B20-FABD-D557-499EB1BA0A9E">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>8406AE37-98B7-2E42-DFB8-1D554E4273EA</schemaObject>
+<segment>C851FE71-A2DC-2FBE-1FC7-C34B864EFA9B</segment>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<indexSegment>C851FE71-A2DC-2FBE-1FC7-C34B864EFA9B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,16 @@
+--phongtro--
+ALTER session set "_oracle_script" = true;
+create user phongtro IDENTIFIED BY 1
+GRANT CREATE SESSION TO phongtro;
+GRANT CREATE TABLE TO phongtro;
+GRANT INSERT, SELECT, UPDATE, DELETE TO phongtro;
+ALTER USER phongtro QUOTA 100M ON USERS;
+GRANT RESOURCE TO phongtro;
+GRANT CREATE SEQUENCE TO phongtro;
+GRANT CREATE VIEW TO phongtro;
+GRANT CREATE ANY TABLE TO phongtro;
+
+
+GRANT CREATE TRIGGER TO phongtro;
+GRANT CREATE PROCEDURE TO phongtro;
+DROP USER phongtro CASCADE;

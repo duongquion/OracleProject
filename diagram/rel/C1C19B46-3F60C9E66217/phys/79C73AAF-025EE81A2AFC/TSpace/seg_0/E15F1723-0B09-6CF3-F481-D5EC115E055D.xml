@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="E15F1723-0B09-6CF3-F481-D5EC115E055D">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

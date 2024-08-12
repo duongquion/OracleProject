@@ -1,0 +1,21 @@
+Quản lý tin đăng:
+Mỗi tin đăng phải có một tiêu đề, mô tả và đầy đủ các trường dữ liệu.
+Một tin đăng phải có ít nhất 3 hình và nhiều nhất 12 hình
+
+Quản lý người dùng:
+Mỗi người dùng phải có một tài khoản duy nhất được đăng ký bằng số điện thoại.
+Khi người dùng đăng nhập thì mặc định CHUCVU bằng 4
+
+Tìm kiếm và xem tin:
+Khi tìm kiếm loại hình bất động sản nào đó sẽ xuất ra các kết quả tương tự với MaLoaiHinh
+Kết quả tìm kiếm phải được sắp xếp theo một thứ tự nhất định, chẳng hạn như theo thời gian đăng mới nhất.
+
+Thanh toán và giao dịch:
+Khi người dùng đăng tin thành công thì bảng VITIEN sẽ tự động trừ đi 3000
+Đảm bảo rằng trường "SoTien" trong bảng "LICHSUGD" phải có giá trị không âm (lớn hơn hoặc bằng 0).
+
+Bảo mật và phân quyền:
+Xóa tin đăng khi nó đã tồn tại 30 ngày.
+Khi người dùng đăng nhập sẽ tự sinh ra MaTT ở bảng VITIEN với cột TongTien = 0.
+
+

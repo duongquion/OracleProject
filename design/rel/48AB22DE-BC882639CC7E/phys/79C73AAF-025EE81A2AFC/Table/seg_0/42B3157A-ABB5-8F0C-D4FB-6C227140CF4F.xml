@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ADMINS" directorySegmentName="seg_0" id="42B3157A-ABB5-8F0C-D4FB-6C227140CF4F">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>8406AE37-98B7-2E42-DFB8-1D554E4273EA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C75E15B7-09E5-6BD4-95FB-6B25979DA544</segment>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PASSWORD" id="7B4D3B56-2E61-0D49-1587-EC48D43C8397">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERNAME" id="CE544F87-DCB2-9266-D46F-77EFB1C3DF67">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="ED4D1388-2B22-33A8-46BA-32F27EEDDFFC">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADMINS_PK" id="047B3832-77CD-7F58-A8E6-EB663BA23C0A">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:32:12 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>8406AE37-98B7-2E42-DFB8-1D554E4273EA</schemaObject>
+<segment>C851FE71-A2DC-2FBE-1FC7-C34B864EFA9B</segment>
+<tableSpace>5FA16D2E-1B02-AA81-175A-9876AE2300B6</tableSpace>
+<indexSegment>C851FE71-A2DC-2FBE-1FC7-C34B864EFA9B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

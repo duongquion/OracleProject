@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9C27A53-03AB-A6C2-75E1-D5B0E623698E" schemaObject="67BB65F6-D224-8BE4-E9A6-59523680AE25" name="SEQUELIZEMETA">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>SEQUELIZEMETA</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="A0246490-4981-A35F-DEFF-7A5DE49146F1">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>SEQUELIZEMETA</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B05A391-52A9-F1D0-0E63-310A9F73687D" schemaObject="67BB65F6-D224-8BE4-E9A6-59523680AE25" name="SEQUELIZEMETA_PK">
+<sourceConnName>phongtro</sourceConnName>
+<sourceObjSchema>STD</sourceObjSchema>
+<sourceObjName>SYS_C007489</sourceObjName>
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0246490-4981-A35F-DEFF-7A5DE49146F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POSTS" directorySegmentName="seg_0" id="96B2B3CB-736C-E4B7-7AE9-99DF1155B082">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D7DFF83-CBA2-7AAF-EEDA-CDA919B8E111</segment>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="1D100DFC-8F4D-944E-1EAE-A96CB5FEC7CF">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="LABELCODE" id="3D14AB2F-A2F7-8D2E-7752-FF290CD6A827">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="4400DA86-CF3E-FE41-4147-C0A3BAFC91D4">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OVERVIEWID" id="466636FA-1682-1E07-AF80-6A27BA39E1F9">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDAT" id="4DE5AE2E-7F86-CBFB-377F-09D612EC22EB">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORYCODE" id="4EC1B293-E305-040A-11CD-9C4630B08167">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="65070048-FE29-9B93-193C-C821AC219A69">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="65FAE97A-BEF1-9721-903E-1F6903676E30">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID" id="69293900-1913-19E3-0ABC-61D2190A4155">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AREANUMBER" id="79204FDF-0800-4EDF-0D93-0C5264722FF0">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICENUMBER" id="86EE3224-656A-FCCA-B857-B089EF773F2C">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="A6836997-AF3D-8406-7F16-BC42CACE9871">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROVINCECODE" id="A94A5BF2-8D77-1D08-AA59-3D0BA614D19C">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATTRIBUTESID" id="AEE2ED61-B8D1-89EA-5586-30ACE4BD0DC2">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AREACODE" id="DA86B6A2-5586-0A85-1E70-D0D04A1053B3">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICECODE" id="E7CCA184-BD6D-F54B-570B-F017133E9DE8">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMAGESID" id="EEA3EE19-2C4F-FCE3-4819-C44304E9164C">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="FE0E6328-8A8A-529D-FBCC-C78D3A2C1477">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAR" id="FFBCF4A6-3964-C288-B5B5-FDF349EF812E">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<defaultValue>&apos;0&apos;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000073124C00011$$" id="47A17138-3B96-EDC5-5B63-CC5587D9BFDE">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:02 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>DESCRIPTION</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POSTS_PK" id="CFACA2C1-644D-8B9F-3974-EF7BB81B3AEE">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+<segment>167BD53F-CA8F-F5F2-F490-B1412F9B04E5</segment>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<indexSegment>167BD53F-CA8F-F5F2-F490-B1412F9B04E5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

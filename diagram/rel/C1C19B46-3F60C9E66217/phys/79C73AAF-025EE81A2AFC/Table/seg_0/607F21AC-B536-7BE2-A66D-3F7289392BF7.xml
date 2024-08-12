@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HISTORYTRANSACTIONS" directorySegmentName="seg_0" id="607F21AC-B536-7BE2-A66D-3F7289392BF7">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D7DFF83-CBA2-7AAF-EEDA-CDA919B8E111</segment>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATEDAT" id="07EC8C1C-3418-04A0-C0D5-46EEB04B3DF4">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="0E7963E7-3D8D-7A70-9E23-5D4AB945B2DD">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDAT" id="0F2A6EB8-1DCE-3E3F-78BB-5F27B824D519">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1CD70025-09E5-D28A-DFCF-665ACDEE4C5A">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTION_ID" id="827E6AE5-BB99-BA15-379C-8C1831CB39AE">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="BB87DF7D-D2D2-D09B-856F-9AB2CF1823B1">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTORYTRANSACTIONS_PK" id="A38B5664-1E90-0EBD-2768-0EE23F86FE68">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+<segment>167BD53F-CA8F-F5F2-F490-B1412F9B04E5</segment>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<indexSegment>167BD53F-CA8F-F5F2-F490-B1412F9B04E5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

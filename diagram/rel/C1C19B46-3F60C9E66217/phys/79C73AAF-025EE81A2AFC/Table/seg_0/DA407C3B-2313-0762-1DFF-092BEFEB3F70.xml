@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LABELS" directorySegmentName="seg_0" id="DA407C3B-2313-0762-1DFF-092BEFEB3F70">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:58 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D7DFF83-CBA2-7AAF-EEDA-CDA919B8E111</segment>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODE" id="069CA2A5-556F-7323-9E82-883C676F2B62">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDAT" id="4C73D1AE-60C1-EDA7-E70D-85010FEA3959">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALUE" id="6E2CF8E7-1CB4-8166-519F-1BF0857EC55B">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="760BF338-7A78-A23A-93B7-6AD6DA0F1391">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="D07794BA-DAAA-FB73-1FDD-3C9543D38BCD">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:40:59 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LABELS_PK" id="1815F47D-0616-4BF3-7456-3C3044682ABE">
+<createdBy>On</createdBy>
+<createdTime>2024-03-05 04:41:01 UTC</createdTime>
+<ownerDesignName>diagram</ownerDesignName>
+<schemaObject>67BB65F6-D224-8BE4-E9A6-59523680AE25</schemaObject>
+<segment>167BD53F-CA8F-F5F2-F490-B1412F9B04E5</segment>
+<tableSpace>E15F1723-0B09-6CF3-F481-D5EC115E055D</tableSpace>
+<indexSegment>167BD53F-CA8F-F5F2-F490-B1412F9B04E5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

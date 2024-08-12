@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LABELS" directorySegmentName="seg_0" id="A19372CB-85A2-2E44-9B44-74EA945C8ADA">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>D7FD12C9-4802-E116-E765-11AA301BC979</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>27CC8446-8223-931D-7048-E74BB9966D96</segment>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="0EC0C937-7439-9F82-092C-5F5460DE4A79">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALUE" id="4AAC05C0-789A-2CCB-CC03-3A17E83CEF74">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATEDAT" id="8AB23E6C-7243-42C9-74E1-E4D6B1383FC4">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATEDAT" id="DD41C345-27FE-0AAC-DE84-F6DF9D64A535">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="F8D9A525-1A69-E61C-2274-846D41901C1D">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:03 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LABELS_PK" id="84FCBAB0-F023-5B35-C19E-399995936E93">
+<createdBy>On</createdBy>
+<createdTime>2024-02-20 04:20:05 UTC</createdTime>
+<ownerDesignName>design</ownerDesignName>
+<schemaObject>D7FD12C9-4802-E116-E765-11AA301BC979</schemaObject>
+<segment>15AB028D-8ADC-8B30-3F1A-38384697FDFC</segment>
+<tableSpace>BE44661B-79C7-D361-6035-EB629FAA2523</tableSpace>
+<indexSegment>15AB028D-8ADC-8B30-3F1A-38384697FDFC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
